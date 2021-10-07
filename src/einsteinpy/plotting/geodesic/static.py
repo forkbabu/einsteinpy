@@ -87,8 +87,8 @@ class StaticGeodesicPlotter:
             label="BH Event Horizon (Outer)",
         )
 
-        surface1._facecolors2d = surface1._facecolor3d
-        surface1._edgecolors2d = surface1._edgecolor3d
+        surface1._facecolors2d = surface1._facecolors3d
+        surface1._edgecolors2d = surface1._edgecolors3d
 
         # Outer Ergosphere
         if self.draw_ergosphere:
